@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="BudgetCalculator (1).css" />
+  </head>
+  <body>
+    <div class="container-fluid center-meh-boi">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-1">
+          <div class="box-of-stuff">
+            <form action="">
+              <input
+                class="form-control input-lg"
+                type="text"
+                id="income"
+                placeholder="Monthly Income"
+              /><br />
+              <input
+                class="form-control input-lg"
+                type="text"
+                id="rent"
+                placeholder="Rent"
+              /><br />
+              <input
+                class="form-control input-lg"
+                type="text"
+                id="food"
+                placeholder="Food"
+              /><br />
+              <input
+                class="form-control input-lg"
+                type="text"
+                id="utilities"
+                placeholder="Utilities"
+              /><br />
+              <input
+                class="form-control input-lg"
+                type="text"
+                id="insurance"
+                placeholder="Insurance"
+              /><br />
+            </form>
+            <button class="btn btn-primary btn-lg btn-block" onclick="gather()">
+              Submit
+            </button>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="results">
+            <h1 class="title">Results</h1>
+            <span class="emoji"> </span>
+            <div class="results-data">
+              <p>Hit that submit button to see your results!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
